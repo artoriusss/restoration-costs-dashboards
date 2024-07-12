@@ -1,0 +1,133 @@
+[
+    {
+        "id": 1,
+        "amount_total": 41096,
+        "amount_payments": 41095,
+        "address": "1 Травня 13",
+        "street": "1 Травня",
+        "building": "13",
+        "object_type": "Житло",
+        "adm4_pcode": "UA3208019001",
+        "adm3_pcode": "UA3208019",
+        "adm2_pcode": "UA3208",
+        "adm1_pcode": "UA32",
+        "adm0_pcode": "UA",
+        "settlement": "Макарів",
+        "terhromada": "Макарівська",
+        "district": "Бучанський",
+        "region": "Київська",
+        "country": "Україна",
+        "latitude": 50.45243,
+        "longitude": 29.81599,
+        "kpk": 7801700,
+        "year": 2022,
+        "payments": [
+            {
+                "programme_name": "Першочергові заходи з ліквідації наслідків бойових дій (7801700)",
+                "budget_type": "державний",
+                "payer_edrpou": "21467647",
+                "payer_name": "ДРР Київської ОДА",
+                "receipt_edrpou": "21467647",
+                "receipt_name": "ДРР Київської ОДА",
+                "trans_date": 1660003200,
+                "amount": 825
+            },
+            {
+                "programme_name": "Першочергові заходи з ліквідації наслідків бойових дій (7801700)",
+                "budget_type": "державний",
+                "payer_edrpou": "21467647",
+                "payer_name": "ДРР Київської ОДА",
+                "receipt_edrpou": "40856650",
+                "receipt_name": "ТОВ \"Тетрастрой\"",
+                "trans_date": 1657065600,
+                "amount": 13815
+            },
+            {
+                "programme_name": "Першочергові заходи з ліквідації наслідків бойових дій (7801700)",
+                "budget_type": "державний",
+                "payer_edrpou": "21467647",
+                "payer_name": "ДРР Київської ОДА",
+                "receipt_edrpou": "40856650",
+                "receipt_name": "ТОВ \"Тетрастрой\"",
+                "trans_date": 1660003200,
+                "amount": 26455
+            }
+        ],
+        "note": null,
+        "note_coordinates": "* розташування об'єкта на мапі може містити похибку"
+    },
+    {
+        "id": 2,
+        "amount_total": 60387,
+        "amount_payments": 60387,
+        "address": "1 Травня 165",
+        "street": "1 Травня",
+        "building": "165",
+        "object_type": "Житло",
+        "adm4_pcode": "UA3210011015",
+        "adm3_pcode": "UA3210011",
+        "adm2_pcode": "UA3210",
+        "adm1_pcode": "UA32",
+        "adm0_pcode": "UA",
+        "settlement": "Луговики",
+        "terhromada": "Поліська",
+        "district": "Вишгородський",
+        "region": "Київська",
+        "country": "Україна",
+        "latitude": 51.22216,
+        "longitude": 29.47904,
+        "kpk": 3121150,
+        "year": 2022,
+        "payments": [
+            {
+                "programme_name": "Закупівля товарів в умовах воєнного стану (Укрзалізниця) (3121150)",
+                "budget_type": "державний",
+                "payer_edrpou": "40075815",
+                "payer_name": "АТ \"Українська залізниця\"",
+                "receipt_edrpou": "04361723",
+                "receipt_name": "Поліська СР",
+                "trans_date": 1667174400,
+                "amount": 60387
+            }
+        ],
+        "note": null,
+        "note_coordinates": "* розташування об'єкта на мапі може містити похибку"
+    },
+    {
+        "id": 3,
+        "amount_total": 23637,
+        "amount_payments": 23637,
+        "address": "1 Травня 19",
+        "street": "1 Травня",
+        "building": "19",
+        "object_type": "Житло",
+        "adm4_pcode": "UA3210011015",
+        "adm3_pcode": "UA3210011",
+        "adm2_pcode": "UA3210",
+        "adm1_pcode": "UA32",
+        "adm0_pcode": "UA",
+        "settlement": "Луговики",
+        "terhromada": "Поліська",
+        "district": "Вишгородський",
+        "region": "Київська",
+        "country": "Україна",
+        "latitude": 51.22202,
+        "longitude": 29.46748,
+        "kpk": 3121150,
+        "year": 2022,
+        "payments": [
+            {
+                "programme_name": "Закупівля товарів в умовах воєнного стану (Укрзалізниця) (3121150)",
+                "budget_type": "державний",
+                "payer_edrpou": "40075815",
+                "payer_name": "АТ \"Українська залізниця\"",
+                "receipt_edrpou": "04361723",
+                "receipt_name": "Поліська СР",
+                "trans_date": 1667174400,
+                "amount": 23637
+            }
+        ],
+        "note": null,
+        "note_coordinates": "* розташування об'єкта на мапі може містити похибку"
+    }
+]

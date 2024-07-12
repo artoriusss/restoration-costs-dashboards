@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Shape_Leng": 0.056237142156000001, "Shape_Area": 0.00016886791678199999, "ADM4_EN": "Abrykosove", "ADM4_UA": "Абрикосове", "ADM4_PCODE": "UA0112001001", "ADM4_REF": null, "ADM4ALT1EN": null, "ADM4ALT2EN": null, "ADM4ALT1UA": null, "ADM4ALT2UA": null, "ADM3_EN": "Abrykosivska", "ADM3_UA": "Абрикосівська", "ADM3_PCODE": "UA0112001", "ADM2_EN": "Krasnohvardiiskyi", "ADM2_UA": "Красногвардійський", "ADM2_PCODE": "UA0112", "ADM1_EN": "Autonomous Republic of Crimea", "ADM1_UA": "Автономна Республіка Крим", "ADM1_PCODE": "UA01", "ADM0_EN": "Ukraine", "ADM0_UA": "Україна", "ADM0_PCODE": "UA", "date": "2023-01-30", "validOn": "2023-02-01", "validTo": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 34.106229631000076, 45.698692640000047 ], [ 34.095874802000026, 45.698811979000027 ], [ 34.096432874000072, 45.684361521000028 ], [ 34.103250372000048, 45.684187031000079 ], [ 34.103262561000065, 45.687453652000045 ], [ 34.108469667000065, 45.687472433000039 ], [ 34.108321042000057, 45.692673374000037 ], [ 34.106229631000076, 45.698692640000047 ] ] ] } }
+]
+}

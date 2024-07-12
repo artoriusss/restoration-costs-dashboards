@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Shape_Leng": 0.092410599251600001, "Shape_Area": 0.00048844243932499995, "ADM4_EN": "Rozdolne", "ADM4_UA": "Роздольне", "ADM4_PCODE": "UA0114037001", "ADM4_REF": null, "ADM4ALT1EN": null, "ADM4ALT2EN": null, "ADM4ALT1UA": null, "ADM4ALT2UA": null, "ADM3_EN": "Rozdolnenska", "ADM3_UA": "Роздольненська", "ADM3_PCODE": "UA0114037", "ADM2_EN": "Krasnoperekopskyi", "ADM2_UA": "Красноперекопський", "ADM2_PCODE": "UA0114", "ADM1_EN": "Autonomous Republic of Crimea", "ADM1_UA": "Автономна Республіка Крим", "ADM1_PCODE": "UA01", "ADM0_EN": "Ukraine", "ADM0_UA": "Україна", "ADM0_PCODE": "UA", "date": "2023-01-30", "validOn": "2023-02-01", "validTo": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 33.504692456000043, 45.77878211400008 ], [ 33.476399679000053, 45.778579710000031 ], [ 33.476776912000048, 45.764510179000069 ], [ 33.48279526400006, 45.763582276000079 ], [ 33.482893930000046, 45.760561282000026 ], [ 33.504833748000067, 45.760682511000027 ], [ 33.504692456000043, 45.77878211400008 ] ] ] } }
+]
+}

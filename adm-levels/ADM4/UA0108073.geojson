@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Shape_Leng": 0.083347753898800003, "Shape_Area": 0.00021627736866699999, "ADM4_EN": "Uiutne", "ADM4_UA": "Уютне", "ADM4_PCODE": "UA0108073001", "ADM4_REF": null, "ADM4ALT1EN": null, "ADM4ALT2EN": null, "ADM4ALT1UA": null, "ADM4ALT2UA": null, "ADM3_EN": "Uiutnenska", "ADM3_UA": "Уютненська", "ADM3_PCODE": "UA0108073", "ADM2_EN": "Yevpatoriiskyi", "ADM2_UA": "Євпаторійський", "ADM2_PCODE": "UA0108", "ADM1_EN": "Autonomous Republic of Crimea", "ADM1_UA": "Автономна Республіка Крим", "ADM1_PCODE": "UA01", "ADM0_EN": "Ukraine", "ADM0_UA": "Україна", "ADM0_PCODE": "UA", "date": "2023-01-30", "validOn": "2023-02-01", "validTo": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 33.304874, 45.207457 ], [ 33.30276199900004, 45.210459 ], [ 33.299971, 45.207371 ], [ 33.295310999000037, 45.206807 ], [ 33.293159, 45.191871 ], [ 33.296708, 45.19011 ], [ 33.298919, 45.192319 ], [ 33.303039, 45.192008 ], [ 33.303917, 45.199033 ], [ 33.31399, 45.198411 ], [ 33.313034001000062, 45.202784 ], [ 33.309752001000049, 45.204169 ], [ 33.304686, 45.204121 ], [ 33.304874, 45.207457 ] ] ] } }
+]
+}

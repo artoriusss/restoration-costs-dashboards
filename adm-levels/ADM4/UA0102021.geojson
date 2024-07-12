@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Shape_Leng": 0.092533696527799997, "Shape_Area": 0.00015742337975799999, "ADM4_EN": "Inkerman", "ADM4_UA": "Інкерман", "ADM4_PCODE": "UA0102021001", "ADM4_REF": null, "ADM4ALT1EN": null, "ADM4ALT2EN": null, "ADM4ALT1UA": null, "ADM4ALT2UA": null, "ADM3_EN": "Sevastopol", "ADM3_UA": "Севастополь", "ADM3_PCODE": "UA0102021", "ADM2_EN": "Bakhchysaraiskyi", "ADM2_UA": "Бахчисарайський", "ADM2_PCODE": "UA0102", "ADM1_EN": "Autonomous Republic of Crimea", "ADM1_UA": "Автономна Республіка Крим", "ADM1_PCODE": "UA01", "ADM0_EN": "Ukraine", "ADM0_UA": "Україна", "ADM0_PCODE": "UA", "date": "2023-01-30", "validOn": "2023-02-01", "validTo": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 33.606672543000059, 44.62152782000004 ], [ 33.599198603000048, 44.618779362000055 ], [ 33.599218999000072, 44.615432 ], [ 33.607560999000043, 44.615602 ], [ 33.608399, 44.614135 ], [ 33.607563999000035, 44.606168 ], [ 33.61145778100007, 44.606692472000077 ], [ 33.614003020000041, 44.60523691700007 ], [ 33.616279330000054, 44.609903005000035 ], [ 33.612979951000057, 44.617582189000075 ], [ 33.615864542000054, 44.620233445000054 ], [ 33.606672543000059, 44.62152782000004 ] ] ] } }
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Shape_Leng": 0.043562857456199998, "Shape_Area": 0.000112257960874, "ADM4_EN": "Novoselivka", "ADM4_UA": "Новоселівка", "ADM4_PCODE": "UA0116023001", "ADM4_REF": null, "ADM4ALT1EN": null, "ADM4ALT2EN": null, "ADM4ALT1UA": null, "ADM4ALT2UA": null, "ADM3_EN": "Novoselivska", "ADM3_UA": "Новоселівська", "ADM3_PCODE": "UA0116023", "ADM2_EN": "Simferopolskyi", "ADM2_UA": "Сімферопольський", "ADM2_PCODE": "UA0116", "ADM1_EN": "Autonomous Republic of Crimea", "ADM1_UA": "Автономна Республіка Крим", "ADM1_PCODE": "UA01", "ADM0_EN": "Ukraine", "ADM0_UA": "Україна", "ADM0_PCODE": "UA", "date": "2023-01-30", "validOn": "2023-02-01", "validTo": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 33.840988, 44.997495 ], [ 33.840736, 44.998359 ], [ 33.829914, 44.998612 ], [ 33.829387, 44.988908 ], [ 33.833865, 44.986343 ], [ 33.838850999000044, 44.987898 ], [ 33.83945600100003, 44.996834 ], [ 33.840988, 44.997495 ] ] ] } }
+]
+}

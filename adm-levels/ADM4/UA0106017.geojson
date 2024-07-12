@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Shape_Leng": 0.088513079626200003, "Shape_Area": 0.00039779407421500001, "ADM4_EN": "Krymka", "ADM4_UA": "Кримка", "ADM4_PCODE": "UA0106017001", "ADM4_REF": null, "ADM4ALT1EN": null, "ADM4ALT2EN": null, "ADM4ALT1UA": null, "ADM4ALT2UA": null, "ADM3_EN": "Krymkivska", "ADM3_UA": "Кримківська", "ADM3_PCODE": "UA0106017", "ADM2_EN": "Dzhankoiskyi", "ADM2_UA": "Джанкойський", "ADM2_PCODE": "UA0106", "ADM1_EN": "Autonomous Republic of Crimea", "ADM1_UA": "Автономна Республіка Крим", "ADM1_PCODE": "UA01", "ADM0_EN": "Ukraine", "ADM0_UA": "Україна", "ADM0_PCODE": "UA", "date": "2023-01-30", "validOn": "2023-02-01", "validTo": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 34.208457586000065, 45.712130234000028 ], [ 34.177391299000078, 45.712815221000028 ], [ 34.177069900000049, 45.703766486000063 ], [ 34.18004763600004, 45.703292264000027 ], [ 34.183963906000031, 45.699880720000067 ], [ 34.196465796000041, 45.700237275000063 ], [ 34.201843147000034, 45.69720944200003 ], [ 34.208132964000072, 45.697264456000028 ], [ 34.208457586000065, 45.712130234000028 ] ] ] } }
+]
+}

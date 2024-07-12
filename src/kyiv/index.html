@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highcharts Map Drilldown</title>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Reference to Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="src/kyiv/styles.css">
+    <!-- Reference to Select2 JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="metrics-container">
+        <!-- <div id="planned-budget-container">
+            <h3>Заплановано використати</h3>
+            <p id="planned-budget"></p>
+        </div> -->
+        <div id="total-spent-container">
+            <div id="total-spent-container-header">
+                <h3 data-key="total-spent">Всього використано коштів</h3>
+                <p id="total-spent">20<!--metric inserted in JS --></p>
+            </div>
+            <div id="budget-spent-container">
+                <div id="local-budget-spent">
+                    <h3 data-key="local-spent">З місцевого бюджету</h3>
+                    <p id="local-spent">0 грн</p>
+                </div>
+                <div id="state-budget-spent">
+                    <h3 data-key="state-spent">З державного бюджету</h3>
+                    <p id="state-spent">0 грн</p>
+                </div>
+                <div id="partners-budget-spent">
+                    <h3 data-key="partners-spent">Кошти партнерів</h3>
+                    <p id="partners-spent">0 грн</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="main-content">
+        <div id="map-sidebar-container">
+            <div id="map-container">
+                <!-- Map will be inserted here -->
+            </div>
+            <div class="sidebar">
+                <h2 data-key="filters">Фільтри</h2>
+
+                <div class="row">
+                    <label for="budget-type" data-key="f-budget">Бюджет:</label>
+                    <select name="budget-type" id="budget-type" class="form-select">
+                         <!-- Options will be inserted here with JavaScript -->
+                    </select>
+                    <button data-reset-target="budget-type" data-key="f-reset">Скинути</button>
+                </div>
+
+                <div class="row">
+                    <label for="obj-category" data-key="f-objcat">Категорія обʼєкту:</label>
+                    <select name="obj-category" id="obj-category" class="form-select">
+                        <!-- Options will be inserted here with JavaScript -->
+                    </select>
+                    <button data-reset-target="obj-category" data-key="f-reset">Скинути</button>
+                </div>
+
+                <div class="row">
+                    <label for="program-type" data-key="f-budgprg">Бюджетна програма:</label>
+                    <select name="program-type" id="program-type" class="form-select">
+                         <!-- Options will be inserted here with JavaScript -->
+                    </select>
+                    <button data-reset-target="program-type" data-key="f-reset">Скинути</button>
+                </div>
+
+                <div class="row">
+                    <label for="payer-edrpou" data-key="f-payerid">ЄДРПОУ Платника:</label>
+                    <select name="payer-edrpou" id="payer-edrpou" class="form-select">
+                         <!-- Options will be inserted here with JavaScript -->
+                    </select>
+                    <button data-reset-target="payer-edrpou" data-key="f-reset">Скинути</button>
+                </div>
+
+                <div class="row">
+                    <label for="receipt-edrpou" data-key="f-receiptid">ЄДРПОУ Отримувача:</label>
+                    <select name="receipt-edrpou" id="receipt-edrpou" class="form-select">
+                         <!-- Options will be inserted here with JavaScript -->
+                    </select>
+                    <button data-reset-target="receipt-edrpou" data-key="f-reset">Скинути</button>
+                </div>
+
+                <div class="row">
+                    <label for="year" data-key="f-year">Рік:</label>
+                    <select name="year" id="year" class="form-select">
+                         <!-- Options will be inserted here with JavaScript -->
+                    </select>
+                    <button data-reset-target="year" data-key="f-reset">Скинути</button>
+                </div>
+
+                <div class="row">
+                    <button id="reset-all-filters" data-key="f-resetall">Скинути всі фільтри</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="treemap-sidebar-container">
+            <div id="treemap-container">
+                <!-- Treemap will be inserted here -->
+            </div>
+            <div id="line-chart-container">
+                <!-- Line chart will be inserted here -->
+            </div>
+        </div>
+
+        <div id="bar-charts-sidebar-container">
+            <div id="bar-payer">
+                <!-- Treemap will be inserted here -->
+            </div>
+            <div id="bar-reciept">
+                <!-- Line chart will be inserted here -->
+            </div>
+        </div>
+
+        <div id="tables-sidebar-container">
+            <div id="tables-container">
+                <h3 data-key="h-table-title">Програми, з яких фінансуються видатки:</h2>
+                <table id="programs-table" border="1">
+                    <thead>
+                        <tr>
+                            <th data-key="t-program" style="background-color: #f3f4fa;">Програма</th>
+                            <th data-key="t-objects-count" style="text-align:center; background-color: #f3f4fa;">Кількість обʼєктів</th>
+                            <th data-key="t-financed" style="background-color: #f3f4fa;">Профінансовано, грн</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Rows will be inserted here with JavaScript -->
+                    </tbody>
+                </table>
+
+                <table id="objects-table" border="1" style="display: none;">
+                    <thead>
+                        <tr>
+                            <th data-key="t-address" style="background-color: #f3f4fa;">Адреса</th>
+                            <th data-key="t-type" style="background-color: #f3f4fa;">Тип обʼєкту</th>
+                            <th data-key="t-spends" style="background-color: #f3f4fa;">Фактичні витрати, грн</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Rows will be inserted here with JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts for Highcharts map -->
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/tiledwebmap.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/debugger.js"></script>
+    <!-- Other Highcharts scripts  -->
+
+    <script src="https://code.highcharts.com/modules/treemap.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+    <script type="module" src="src/kyiv/index.js"></script>
+</body>
+</html>

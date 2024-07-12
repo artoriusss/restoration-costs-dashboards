@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Shape_Leng": 0.097742221788000003, "Shape_Area": 0.00035089686370200001, "ADM4_EN": "Frunze", "ADM4_UA": "Фрунзе", "ADM4_PCODE": "UA0108075001", "ADM4_REF": null, "ADM4ALT1EN": null, "ADM4ALT2EN": null, "ADM4ALT1UA": null, "ADM4ALT2UA": null, "ADM3_EN": "Frunzenska", "ADM3_UA": "Фрунзенська", "ADM3_PCODE": "UA0108075", "ADM2_EN": "Yevpatoriiskyi", "ADM2_UA": "Євпаторійський", "ADM2_PCODE": "UA0108", "ADM1_EN": "Autonomous Republic of Crimea", "ADM1_UA": "Автономна Республіка Крим", "ADM1_PCODE": "UA01", "ADM0_EN": "Ukraine", "ADM0_UA": "Україна", "ADM0_PCODE": "UA", "date": "2023-01-30", "validOn": "2023-02-01", "validTo": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 33.646471, 45.022219 ], [ 33.644027999000059, 45.025294 ], [ 33.638325999000074, 45.028922 ], [ 33.628844, 45.031623 ], [ 33.622708, 45.032217 ], [ 33.619632, 45.030033 ], [ 33.623325999000031, 45.025819 ], [ 33.617377001000079, 45.025141 ], [ 33.612083, 45.020742 ], [ 33.615704, 45.016408 ], [ 33.630968, 45.016542 ], [ 33.632187001000034, 45.019485 ], [ 33.647242999000071, 45.019548 ], [ 33.646471, 45.022219 ] ] ] } }
+]
+}

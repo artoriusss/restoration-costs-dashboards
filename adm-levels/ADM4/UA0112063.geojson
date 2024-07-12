@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Shape_Leng": 0.052752268395899998, "Shape_Area": 9.7815725752599996e-05, "ADM4_EN": "Sary-Bash", "ADM4_UA": "Сари-Баш", "ADM4_PCODE": "UA0112063001", "ADM4_REF": null, "ADM4ALT1EN": null, "ADM4ALT2EN": null, "ADM4ALT1UA": null, "ADM4ALT2UA": null, "ADM3_EN": "Sarybashivska", "ADM3_UA": "Сарибашівська", "ADM3_PCODE": "UA0112063", "ADM2_EN": "Krasnohvardiiskyi", "ADM2_UA": "Красногвардійський", "ADM2_PCODE": "UA0112", "ADM1_EN": "Autonomous Republic of Crimea", "ADM1_UA": "Автономна Республіка Крим", "ADM1_PCODE": "UA01", "ADM0_EN": "Ukraine", "ADM0_UA": "Україна", "ADM0_PCODE": "UA", "date": "2023-01-30", "validOn": "2023-02-01", "validTo": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 33.785146, 45.576832 ], [ 33.780919, 45.573311 ], [ 33.781679999000062, 45.567016 ], [ 33.790593, 45.565411 ], [ 33.789568, 45.575875 ], [ 33.785146, 45.576832 ] ] ] } }
+]
+}

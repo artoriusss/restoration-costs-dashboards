@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.10.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1", 
+    "highcharts": "^11.4.0",
+    "node-fetch": "^3.3.2",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3"
+  }
+}

@@ -1,0 +1,9 @@
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
+
+/data/kyiv/*
+!/data/kyiv/samplePoints.json
+/data/ukraine/*
+!/data/ukraine/samplePoints.json
