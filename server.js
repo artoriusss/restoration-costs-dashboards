@@ -8,7 +8,8 @@ const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-app.use(express.static(__dirname));
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Serve the Kyiv dashboard
 app.get('/kyiv', (req, res) => {
@@ -20,8 +21,13 @@ app.get('/ukraine', (req, res) => {
   res.sendFile(path.join(__dirname, 'src/ukraine/index.html'));
 });
 
+// Serve index.html for the root path
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/index.html'));
+});
+
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}`);
-  console.log('Press Ctrl+C to quit.');
+const HOST = '0.0.0.0'; // Ensure listening on all network interfaces
+app.listen(PORT, HOST, () => {
+  console.log(`App listening on http://${HOST}:${PORT}`);
 });
